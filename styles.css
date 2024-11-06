@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #b3e6ff;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    
+}
+
+.header-top h1 {
+    font-size: 3em;
+    color: #000000;
+}
+
+.header-top p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.main-menu {
+    background-color: #0062ff;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.main-menu ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.login-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.login-form, .transactions {
+    background-color: #b3e6ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+h2 {
+    color: #0062ff;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0062ff;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0062ff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.transactions ul {
+    list-style: none;
+}
+
+.transactions ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #b3e6ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #0062ff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
